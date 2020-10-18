@@ -39,14 +39,14 @@ else
 	TIMESTAMP=$KBUILD_BUILD_TIMESTAMP
 fi
 if test -z "$KBUILD_BUILD_USER"; then
-	LINUX_COMPILE_BY="KP"
+	LINUX_COMPILE_BY="infected_"
 else
-	LINUX_COMPILE_BY="KP"
+	LINUX_COMPILE_BY="infected_"
 fi
 if test -z "$KBUILD_BUILD_HOST"; then
-	LINUX_COMPILE_HOST="Omega_Build"
+	LINUX_COMPILE_HOST="infected-labs"
 else
-	LINUX_COMPILE_HOST="Omega_Build"
+	LINUX_COMPILE_HOST="infected-labs"
 fi
 
 UTS_VERSION="#$VERSION"
